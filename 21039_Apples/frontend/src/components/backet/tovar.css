@@ -1,0 +1,67 @@
+.tovar {
+    border: 2px solid #c71945;
+    border-radius: 10px;
+    width: 361px;
+    height: 208px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divtovar {
+    width: 284px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.countvalue {
+    border: 2px solid #c71945;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.countvalue>button {
+    background-color: transparent;
+    border: 0;
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.countvalue>span{
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+} 
+
+.divtovar>div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.divtovar>div>a {
+    font-family: "Montserrat-Regular";
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.divtovar>button{
+    background-color: transparent;
+    border: 0;
+}

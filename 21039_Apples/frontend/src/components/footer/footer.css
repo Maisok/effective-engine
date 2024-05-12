@@ -1,0 +1,56 @@
+footer{
+    width: 100%;
+    height: 17.7vw;
+    background-color: #C71945;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divfooter{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divfooter div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 1px solid #fff;
+
+}
+
+.divfooter div ul{
+    width: 60%;
+    height: 80%;
+    list-style-type: none;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.divfooter div ul li a{
+    font-family: 'Montserrat-Regular';
+    text-decoration: none;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #fff;
+}
+
+.divfooter div ul li:first-child a{
+    font-family: "Montserrat-Bold";
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #fff;
+}

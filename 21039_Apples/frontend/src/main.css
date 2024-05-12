@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    background-image: url(../static/background.png);
+}
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url(../static/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url(../static/Montserrat/static/Montserrat-Regular.ttf);
+}

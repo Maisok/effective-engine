@@ -1,0 +1,144 @@
+header{
+    width: 100%;
+    height: 15.625vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    width: 100%;
+    height: 12.5vw;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.advantages{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.advantages div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages div a{
+    font-family: "Montserrat-Regular";
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+}
+
+.search{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    border: 3px solid #fff;
+border-radius: 10px;
+width: 380px;
+height: 35px;
+background-color: transparent;
+}
+
+.search button{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 0;
+
+}
+
+.basket{
+    width: 100%;
+    height: 30%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.basket .IMGbasket{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: end;
+}
+
+.basket a{
+    font-family: "Montserrat-Regular";
+font-weight: 400;
+font-size: 15px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+justify-self: start;
+}
+
+.second{
+    width: 100%;
+    height: 60px;
+    background-color: #C71945;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second div a{
+    font-family: "Montserrat-Regular";
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+background: linear-gradient(to right, transparent, transparent), 
+linear-gradient(to right, #ffffff, #ffffff);
+background-size: 100% 2px, 0 2px;
+background-position: 100% 100%, 0 100%;
+background-repeat: no-repeat;
+transition: background-size 400ms;
+}
+
+.second div a:hover {
+    background-size: 0 2px, 100% 2px;
+}

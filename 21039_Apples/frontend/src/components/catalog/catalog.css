@@ -1,0 +1,42 @@
+.catalog{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divcatalog{
+    width: 65%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.divcatalog>div{
+    border: 2px solid #c71945;
+border-radius: 10px;
+width: 80%;
+height: 100%;
+display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.divcatalog>div>span{
+    font-family: "Montserrat-Regular";
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #fff;
+}
+
+.divcatalog>div>img{
+    width: 70%;
+}

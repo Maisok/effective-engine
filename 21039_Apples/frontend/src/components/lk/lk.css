@@ -1,0 +1,63 @@
+.lk{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lk>button{
+    border-radius: 10px;
+width: 268px;
+height: 70px;
+background: #c71945;
+font-family: 'Montserrat-Regular';
+font-weight: 700;
+font-size: 25px;
+text-align: center;
+color: #fff;
+border: 0;
+}
+
+.divlk{
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.divlk div:first-child{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+.divlk div:first-child>a{
+    font-family: 'Montserrat-Regular';
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+}
+
+.divlk div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divlk div>span{
+    font-family:'Montserrat-Regular';
+font-weight: 500;
+font-size: 20px;
+color: #fff;
+}

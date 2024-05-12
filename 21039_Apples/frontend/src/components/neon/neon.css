@@ -1,0 +1,24 @@
+#f {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #C71945;
+    border-radius: 10px;
+    width: 210px;
+    height: 424px;
+    transition: all 0.2s;
+}
+
+#s {
+    border-radius: 20px;
+    width: 210px;
+    height: 424px;
+    filter: blur(5px);
+    opacity: 0%;
+    outline:10px solid #C71945;
+    outline-offset: -2px;
+    transition: all 1s;
+}
+
+#s:hover {
+    opacity: 100%;
+}
